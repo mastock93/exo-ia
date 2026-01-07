@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
 
-const ai = new GoogleGenAI({apiKey: ""});
+const ai = new GoogleGenAI({apiKey: "AIzaSyDiMh5IQR0s8RddTnCb5RjuDSOT_hL4n5g"});
 
 export class ContentForm {
     #searchInput;
